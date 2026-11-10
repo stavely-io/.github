@@ -1,25 +1,21 @@
-# 🎵 Stavely — Interactive Music Learning App
+# 🎼 Engraver
 
-Welcome to Stavely! Our mission is to make learning music theory fun, interactive, and accessible. This platform helps users improve their musical skills through exercises and quizzes.
+**Interactive, editable music notation for the web.**
 
----
+Engraver is an open-source library for displaying and editing sheet music in the browser. Notes can be entered, selected and changed with the mouse and keyboard, and the score can be played back, all inside your web app.
 
-## 📌 Project Goals & Vision
+- **Editable**: note and rest input, selection, ties and keyboard shortcuts
+- **Playback**: hear the score as you write it
+- **Built on VexFlow**: rendering based on a fork of [VexFlow](https://github.com/vexflow/vexflow)
+- **Framework-agnostic core**: `@engraver/core` holds the logic, `@engraver/react` provides the React component
 
-Stavely is designed to support self-learning of music theory and musical skill development. Our vision is to combine ear training, functional harmony, and music history into a single engaging application.
+Engraver is in early development and not yet published to `npm`.
 
-### Key Goals
+### 🔗 Links
 
-- **🎶 Ear Training:** Connect musical notation with sound through exercises like musical dictations.
-- **🎹 Functional Harmony:** Understand chord relationships via harmonic constructions, soprano harmonization, and figured bass realization.
-- **🏛️ Music History:** Recognize works from the musical canon using listening exercises and flashcards for efficient study.
+- [Repository](https://github.com/stavely-io/engraver)
+- [Report a bug or request a feature](https://github.com/stavely-io/engraver/issues/new/choose)
 
----
+### 🤝 Contributing
 
-## 💡 Motivation
-
-Traditional music education can be rigid and outdated. We noticed a gap in digital solutions that combine ear training, harmony, and music history in one accessible platform.
-
-- Existing apps often focus on only one area.
-- Many are outdated, unintuitive, or desktop-only, limiting accessibility.
-- Our survey of music students confirmed the need for a modern, comprehensive tool.
+Issues and ideas are welcome. Check the [open issues](https://github.com/stavely-io/engraver/issues) to see what we're working on.
